@@ -1907,7 +1907,7 @@ public final class Tools {
         Method method = clazz.getDeclaredMethod(methodName);
         method.setAccessible(true);
         Object motionListener = method.invoke(null);
-        assert motionListener != null;
+        if (motionListener == null) throw new NullPointerException("Method returned null");
         return motionListener;
     }
 
