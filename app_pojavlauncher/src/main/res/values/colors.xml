@@ -3,7 +3,7 @@
     <color name="control_button_color">#4C2A2A3E</color>
     <color name="control_button_pressed_color">#4D000000</color>
 
-    <color name="minebutton_color">#6A0DAD</color>
+    <color name="minebutton_color">#CC0000</color>
     <color name="background_app">#0D0D0D</color>
     <color name="divider">@color/background_overlay</color>
     <color name="background_overlay">#1E1E2E</color>
