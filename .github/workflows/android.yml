@@ -61,3 +61,4 @@ jobs:
         with:
           name: app-debug
           path: out/app-debug.*
+# Force rebuild trigger
