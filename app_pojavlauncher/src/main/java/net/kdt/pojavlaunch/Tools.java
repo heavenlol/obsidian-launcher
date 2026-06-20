@@ -1808,15 +1808,9 @@ public final class Tools {
         MinecraftAccount currentProfile = PojavProfile.getCurrentProfileContent(ctx, null);
         return currentProfile == null || currentProfile.isLocal();
     }
-    public static boolean hasOnlineProfile(){
+    public static boolean hasOnlineProfile() {
         return true;
     }
-    public static boolean disabled_hasOnlineProfile(){
-        return true;
-        for (MinecraftAccount accountToCheck : getAllProfiles()) {
-            if (!accountToCheck.isLocal() && !accountToCheck.isDemo()) {
-                return true;
-            }
         }
         return false;
     }
