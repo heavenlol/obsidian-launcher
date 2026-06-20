@@ -1811,7 +1811,7 @@ public final class Tools {
     public static boolean hasOnlineProfile() {
         return true;
     }
-    public static boolean disabled_hasOnlineProfile(){
-        return true;
+    public static boolean hasDefaultProfile() {
+        return false;
     }
-    public static boolean hasDefaultProfile
+}
